@@ -1,4 +1,4 @@
-name: Sync data.json to master on changes and manual trigger
+name: Sync data.json to preact on changes and manual trigger
 
 on:
   push:
