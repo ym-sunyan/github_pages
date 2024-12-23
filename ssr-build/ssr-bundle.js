@@ -5060,7 +5060,7 @@ var HomePage = function HomePage() {
     setData = _useState2[1];
   Object(preact_hooks__WEBPACK_IMPORTED_MODULE_0__[/* useEffect */ "d"])(function () {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/service-worker.js').then(function () {
+      navigator.serviceWorker.register('service-worker.js').then(function () {
         return console.log('Service Worker registered');
       }).catch(function (error) {
         return console.error('Service Worker registration failed:', error);
