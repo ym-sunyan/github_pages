@@ -1,1 +1,11 @@
-这是模型A的配置参数
+{
+  "model": {
+    "name": "tele chat 3b 测试替换， 最新的测试，第二次最新测试",
+    "size": "3b"
+  },
+  "specifications": {
+    "decoding": 28,
+    "ROM": "2G",
+    "RAM": "2G"
+  }
+}
